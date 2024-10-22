@@ -477,6 +477,9 @@ footer p {
         gap: 15px;
         padding: 15px;
     }
+     .certificate-image{
+        max-width: 50%;
+    }
     .contact-info .text{
         display: none;
     }
