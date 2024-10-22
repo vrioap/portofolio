@@ -477,6 +477,16 @@ footer p {
         gap: 15px;
         padding: 15px;
     }
+    .contact-info .text{
+        display: none;
+    }
+    .contact-info {
+        display: flex;
+        flex-direction: row; /* Susun kontak secara horizontal */
+        flex-wrap: wrap; /* Agar rapi saat layar kecil */
+        gap: 30px; /* Jarak antar item */
+        justify-content: center; /* Sebar item secara merata */
+    }
 }
 @media(max-width:768px)
 {
