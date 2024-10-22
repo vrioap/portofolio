@@ -342,6 +342,7 @@ nav .navlinks li a.active{
     display: flex;
     align-items: center;
     gap: 10px;
+    text-decoration: none;
 }
 
 .contact-info i {
