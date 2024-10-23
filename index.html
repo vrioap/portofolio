@@ -18,7 +18,6 @@
   >
 </head>
 <body>
-     <div id="loading-text"></div>
     <section id="about" class="about">
      <div class="hero-header">
         <div class="wrapper">
@@ -189,20 +188,6 @@ navLinks.forEach(link => {
     this.classList.add('active');
   });
 });
-        const text = "Vrizzo";
-        const delay = 500; // Jeda 500 ms (0.5 detik)
-        let index = 0;
-
-        function showText() {
-            if (index < text.length) {
-                document.getElementById("loading-text").innerHTML += text[index];
-                index++;
-                setTimeout(showText, delay);
-            }
-        }
-
-        // Memulai efek loading saat halaman dibuka
-        window.onload = showText;
      </script>
 </body>
 </html>
