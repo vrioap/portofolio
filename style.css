@@ -4,10 +4,10 @@
     margin: 0;
     font-family: 'Quicksand',sans-serif;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 body{
     overflow-x: hidden;
-    scroll-behavior: smooth;
 }
 .hero-header{
     width:100%;
