@@ -92,7 +92,8 @@ nav .navlinks li a.active{
     font-weight: bold;
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: #d5d5d5;
+    text-decoration-color: #007ced;
+    color:#007ced;
 }
 .container {
     display: flex;
